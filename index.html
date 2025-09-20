@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        }
+        .navcontainer{
+            width: 100vw;
+            height: 80px;
+            background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+            position: relative;
+        
+        }
+        h1{
+            font-size: 2rem;
+        }
+        #navlist{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            display: block;
+            padding: 15px;
+            color:white;
+        }
+        #navheading{
+            color:white;
+            font-size: 4rem;
+        }
+        #navlistitem2{
+            display: flex;
+        }
+        nav{
+            width: 100%;
+            height: 100%;
+        }
+        .listcontainer{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        .maincontainer{
+            width: 1000px;
+            height: 910px;
+            background-color:white ;
+            margin: auto;
+            padding: 90px;
+            gap: 50px;
+            box-shadow: 0px 0px 1px black,0px 0px 1px black;
+        }
+        #firstimage{
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        #secondimage{
+            height: 350px;
+            width: 250px;
+            border-radius: 20px;
+        }
+        footer p{
+            text-align: center;
+            background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+            position: relative;
+        }
+        .firstimagecontainer{
+            position: relative;
+            margin-bottom: 50px;
+            height: 350px;
+            width: 250px;
+            border-radius: 20px;  
+            transition-duration: 1s;
+        }
+        .firstimagecontainer:hover{
+            transform: scale(1.05);
+        }
+        .secondimagecontainer{
+            position: relative;
+           
+             height: 350px;
+            width: 250px;
+            border-radius: 20px;  
+            transition-duration: 1s;
+        }
+        .secondimagecontainer:hover{
+            transform: scale(1.05);
+        }
+        main{
+            width: 100%;
+            height: 100%;
+        }
+        #section1{
+            display: flex;
+            justify-content: space-between;
+        }
+        #section2{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        #gulabgamunlayer{
+            background-color: rgba(0, 0, 0, 0.515);
+             height: 100%;
+            width: 100%;
+            border-radius: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            opacity: 0;
+            transition-duration: 1s;
+            top: 0;
+             font-size: 1.5rem;
+            left: 0;
+        }
+        #gulabgamunlayer:hover{
+            opacity: 1;
+        }
+        #barfigamunlayer{
+            background-color: rgba(0, 0, 0, 0.515);
+             height:100%;
+            width: 100%;
+            border-radius: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            opacity: 0;
+            transition-duration: 1s;
+            font-size: 1.5rem;
+        }
+        #barfigamunlayer:hover{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navcontainer">
+            <nav>
+                <ul id="navlist">
+                    <div class="listcontainer">
+                         <li>
+                        <p id="navheading">Mudassir Sweets</p>
+                    </li>
+                    <li id="navlistitem2">
+                        <a href="#">Home</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                    </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="maincontainer">
+            <main>
+                <section id="section1">
+                
+
+                <div class="firstcontentcontainer">
+                    <h1>Gulam Jamun</h1>
+               <br>
+               <h2>Integrents</h2>
+               <ul>
+                <li>Suger</li>
+                <li>Bread</li>
+                <li>Oil</li>
+               </ul>
+               <br>
+               <h2>Recipe</h2>
+               <ol>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, tempore.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae labore distinctio quis.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+               </ol>
+
+                </div>
+                <div class="firstimagecontainer">
+                    <div id="gulabgamunlayer">
+                        <p>Tap To Buy</p>
+                    </div>
+                    <img src="bread-gulab-jamun-recipe.jpg" alt="gulabJmaun" id="firstimage">
+                </div>
+                </section>
+                <section id="section2">
+                <div class="secondcontentcontainer">
+                    <h1>Barfi Jamun</h1>
+               <br>
+               <h2>Integrents</h2>
+               <ul>
+                <li>Suger</li>
+                <li>Bread</li>
+                <li>Oil</li>
+               </ul>
+               <br>
+               <h2>Recipe</h2>
+               <ol>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, tempore.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae labore distinctio quis.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+               </ol>
+                </div>
+                <div class="secondimagecontainer">
+                    <div id="barfigamunlayer">
+                        <p>Tap To Buy</p>
+                    </div>
+                    <img src="milk-powder-barfi.jpg" alt="BarfiJmaun" id="secondimage">
+                </div>
+                </section>
+                
+            </main>
+        </div>
+        <div class="footercontainer">
+            <footer>
+                <p>Sukkur Sweets &copy All Rights Reserved 2023</p> 
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
